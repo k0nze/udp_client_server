@@ -1,10 +1,13 @@
-// UDP client
-
 #include <stdio.h>
 #include <sys/socket.h>
 #include <netinet/in.h>
 #include <string.h>
 #include <arpa/inet.h>
+
+/**
+ * @brief UDP client
+ * @authors Daniel Scocco, Konstantin Lübeck (University of Tuebingen, Embedded Systems)
+ */
 
 int main() {
 	int client_socket, port_num, n_bytes;

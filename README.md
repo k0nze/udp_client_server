@@ -1,25 +1,24 @@
 # UDP Client Server Test in C
 
-Adapter from:  Daniel Scocco ([http://www.programminglogic.com/sockets-programming-in-c-using-udp-datagrams/](http://www.programminglogic.com/sockets-programming-in-c-using-udp-datagrams/))
+Adapted from: Daniel Scocco ([http://www.programminglogic.com/sockets-programming-in-c-using-udp-datagrams/](http://www.programminglogic.com/sockets-programming-in-c-using-udp-datagrams/))
 
-## Compile
-
-```
-cd src
-make all
+## Build
+```bash
+cd build
+cmake ..
+make client
+make server
 ```
 
 ## Run
-### Client
-
+1st Terminal
+```bash
+cd build
+./server
 ```
-cd src/client
+
+2nd Terminal
+```bash
+cd build
 ./client
 ```
-
-### Server
-
-```
-cd src/server
-./server
-``` 

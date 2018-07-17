@@ -1,5 +1,3 @@
-// UDP server
-
 #include <stdio.h>
 #include <sys/socket.h>
 #include <netinet/in.h>
@@ -7,6 +5,11 @@
 #include <stdlib.h>
 #include <arpa/inet.h>
 #include <ctype.h>
+
+/**
+ * @brief UDP server
+ * @authors Daniel Scocco, Konstantin Lübeck (University of Tuebingen, Embedded Systems)
+ */
 
 int main() {
 	int udp_socket, n_bytes;
